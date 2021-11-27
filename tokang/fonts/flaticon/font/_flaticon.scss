@@ -1,0 +1,58 @@
+    /*
+    Flaticon icon font: Flaticon
+    Creation date: 03/06/2019 00:42
+    */
+
+    @font-face {
+  font-family: "Flaticon";
+  src: url("./Flaticon.eot");
+  src: url("./Flaticon.eot?#iefix") format("embedded-opentype"),
+       url("./Flaticon.woff2") format("woff2"),
+       url("./Flaticon.woff") format("woff"),
+       url("./Flaticon.ttf") format("truetype"),
+       url("./Flaticon.svg#Flaticon") format("svg");
+  font-weight: normal;
+  font-style: normal;
+}
+
+@media screen and (-webkit-min-device-pixel-ratio:0) {
+  @font-face {
+    font-family: "Flaticon";
+    src: url("./Flaticon.svg#Flaticon") format("svg");
+  }
+}
+
+    .fi:before{
+        display: inline-block;
+  font-family: "Flaticon";
+  font-style: normal;
+  font-weight: normal;
+  font-variant: normal;
+  line-height: 1;
+  text-decoration: inherit;
+  text-rendering: optimizeLegibility;
+  text-transform: none;
+  -moz-osx-font-smoothing: grayscale;
+  -webkit-font-smoothing: antialiased;
+  font-smoothing: antialiased;
+    }
+
+    .flaticon-furniture-and-household:before { content: "\f100"; }
+.flaticon-car:before { content: "\f101"; }
+.flaticon-service:before { content: "\f102"; }
+.flaticon-makeup:before { content: "\f103"; }
+.flaticon-sneakers:before { content: "\f104"; }
+.flaticon-architect-with-helmet:before { content: "\f105"; }
+.flaticon-architect:before { content: "\f106"; }
+.flaticon-washing-machine:before { content: "\f107"; }
+.flaticon-electrician:before { content: "\f108"; }
+    
+    $font-Flaticon-furniture-and-household: "\f100";
+    $font-Flaticon-car: "\f101";
+    $font-Flaticon-service: "\f102";
+    $font-Flaticon-makeup: "\f103";
+    $font-Flaticon-sneakers: "\f104";
+    $font-Flaticon-architect-with-helmet: "\f105";
+    $font-Flaticon-architect: "\f106";
+    $font-Flaticon-washing-machine: "\f107";
+    $font-Flaticon-electrician: "\f108";
